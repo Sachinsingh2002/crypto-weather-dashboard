@@ -5,6 +5,7 @@ interface NewsCardProps {
   article: News
 }
 
+
 export default function NewsCard({ article }: NewsCardProps) {
   const formatDate = (dateString: string) => {
     const date = new Date(dateString)
