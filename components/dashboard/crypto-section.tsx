@@ -8,6 +8,7 @@ import CryptoCard from "@/components/crypto/crypto-card"
 
 export default function CryptoSection() {
   const { cryptos, loading, error } = useSelector((state: RootState) => state.crypto)
+  
 
   if (loading && cryptos.length === 0) {
     return (
