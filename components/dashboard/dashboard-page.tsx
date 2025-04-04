@@ -13,6 +13,7 @@ import NewsSection from "@/components/dashboard/news-section"
 import FavoritesSection from "@/components/dashboard/favorites-section"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
+
 export default function DashboardPage() {
   const dispatch = useDispatch<AppDispatch>()
   const { favoriteCities, favoriteCryptos } = useSelector((state: RootState) => state.favorites)
