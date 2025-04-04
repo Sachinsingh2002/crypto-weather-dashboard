@@ -1,6 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
+
 import type { WeatherHistory } from "@/types/weather"
 import {
   Chart,
