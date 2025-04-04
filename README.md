@@ -144,17 +144,3 @@ Now open your browser and navigate to [http://localhost:3000](http://localhost:3
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** — feel free to use it, fork it, or contribute!
-
----
-
-## 👨‍💻 Author
-
-**[Your Name]**  
-Connect with me on [LinkedIn](#) | [GitHub](#) | [Twitter](#)
-
----
-
-> Built with ❤️ using modern web tools.
