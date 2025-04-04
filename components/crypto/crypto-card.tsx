@@ -11,6 +11,7 @@ import type { AppDispatch, RootState } from "@/redux/store"
 import { toggleFavoriteCrypto } from "@/redux/features/favoritesSlice"
 import type { Crypto } from "@/types/crypto"
 
+
 interface CryptoCardProps {
   crypto: Crypto
 }
