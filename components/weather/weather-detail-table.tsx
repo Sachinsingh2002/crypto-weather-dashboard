@@ -5,6 +5,7 @@ interface WeatherDetailTableProps {
   data: WeatherHistory[]
 }
 
+
 export default function WeatherDetailTable({ data }: WeatherDetailTableProps) {
   if (data.length === 0) {
     return (
