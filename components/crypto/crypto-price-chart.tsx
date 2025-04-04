@@ -32,6 +32,7 @@ export default function CryptoPriceChart({ data }: CryptoPriceChartProps) {
       day: "numeric",
     })
   }
+  
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-US", {
